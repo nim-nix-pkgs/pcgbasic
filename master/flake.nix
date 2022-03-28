@@ -11,7 +11,6 @@
   inputs.src-pcgbasic-master.ref   = "refs/heads/master";
   inputs.src-pcgbasic-master.owner = "rockcavera";
   inputs.src-pcgbasic-master.repo  = "pcgbasic";
-  inputs.src-pcgbasic-master.dir   = "";
   inputs.src-pcgbasic-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
